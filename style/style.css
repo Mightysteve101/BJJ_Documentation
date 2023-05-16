@@ -1,6 +1,12 @@
 ol li{
     list-style-type: none;
 }
+.title{
+    display: flex;
+}
+.title-description{
+    display:flex;
+}
 .index-li-a:link{
     color:dimgray;
     text-decoration: none;
@@ -11,11 +17,11 @@ ol li{
     text-decoration: underline;
     text-underline-position: under;
 }
-.column{
+.row{
     display: flex;
     background-color: darkgrey;
 }
-.column > div{
+.row > div{
     background-color: antiquewhite;
     margin: 10px;
     padding: 10px;
