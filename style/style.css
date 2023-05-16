@@ -18,11 +18,21 @@ ol li{
     text-underline-position: under;
 }
 .row{
-    display: flex;
     background-color: darkgrey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 .row > div{
     background-color: antiquewhite;
     margin: 10px;
     padding: 10px;
+}
+
+ol > li{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
