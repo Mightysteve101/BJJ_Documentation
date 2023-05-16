@@ -11,3 +11,12 @@ ol li{
     text-decoration: underline;
     text-underline-position: under;
 }
+.column{
+    display: flex;
+    background-color: darkgrey;
+}
+.column > div{
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px;
+}
