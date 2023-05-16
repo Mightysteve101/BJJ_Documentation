@@ -1,0 +1,13 @@
+ol li{
+    list-style-type: none;
+}
+.index-li-a:link{
+    color:dimgray;
+    text-decoration: none;
+    
+}
+.index-li-a:hover{
+    color:dimgray;
+    text-decoration: underline;
+    text-underline-position: under;
+}
